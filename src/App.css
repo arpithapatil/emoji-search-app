@@ -1,35 +1,42 @@
 .App {
   text-align: center;
+  background-color:white;
+  
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+
+.header {
+    height:150px;
+    background-image: url(http://en.people.cn/NMediaFile/2017/0118/FOREIGN201701181432000286896515829.jpg); 
+    background-position: 100% 100%; 
+ 
+}
+.body{
+  color: #131111;
+  
+}
+.form{
+  margin-top: 10px;
+}
+.heading{
+  text-align: center;
+  color: #1B1A1A;
+  
 }
 
-.App-header {
-  background-color: #433F4D;
-  height: 150px;
-  padding: 30px;
-  color: white;
+.emoji{
+  margin-top: 15px;
+  display:inline-block;
 }
 
-.App-title {
-  font-size: 1.5em;
-
-}
-.Form {
-  padding: 10px;
-}
 
 .App-intro {
   font-size: large;
 }
-.Emoji {
-  text-align:left;
+
   
 
-}
+
 
 
 @keyframes App-logo-spin {
